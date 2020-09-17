@@ -5,16 +5,19 @@ python:
     - 3.7
     - 3.8
 
+before_install:
+    - sudo apt-get update
+
 install:
     - pip install -r requirements.txt
     - pip install -r requirements-dev.txt
 
 script:
-    - python commands.py init en_US
-    - python commands.py update
-    - python commands.py compile
-    - python commands.py gen-plugin-info
-    - python test.py {}
+    - coverage run python commands.py init en_US
+    - coverage run python commands.py update
+    - coverage run python commands.py compile
+    - coverage run python commands.py gen-plugin-info
+    - coverage run python test.py {}
 
 after_success:
     - codecov
