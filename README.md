@@ -2,6 +2,8 @@
 
 A time plugin for Wox.
 
+[![Build Status](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp.svg?branch=master)](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp) [![codecov](https://codecov.io/gh/Zeroto521/dhnn/branch/master/graph/badge.svg)](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp)
+
 ![screenshot](assets/example.png)
 
 ## :sparkles: Features
@@ -20,7 +22,7 @@ You can edit config in [.env](.env).
 
 ## :pushpin: Requirements
 
-- Python3.x
+- Python3.6(+)
 - `pyperclip`
 - `python-dotenv`
 
