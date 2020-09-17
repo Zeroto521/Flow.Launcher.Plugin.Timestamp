@@ -3,7 +3,7 @@
 """
 timestamp
 =====
-A time format conversion plugin for Wox.
+A time plugin for Wox.
 """
 
 
