@@ -1,0 +1,10 @@
+# vscode local file
+.history/
+.vscode/
+
+
+# python cache
+__pycache__/
+
+
+*.log

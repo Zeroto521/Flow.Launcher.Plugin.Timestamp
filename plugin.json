@@ -1,0 +1,12 @@
+{
+    "ID": "84ddc2a6d43911e8a8d5f2801f1b9fd1",
+    "ActionKeyword": "ts",
+    "Name": "Timestamp",
+    "Description": "A time format conversion plugin for Wox.",
+    "Author": "Sunmoon, Zeroto521",
+    "Version": "1.0.7",
+    "Language": "python",
+    "Website": "https://github.com/Zeroto521/Wox.Plugin.Timestamp",
+    "IcoPath": "assets/favicon.ico",
+    "ExecuteFileName": "main.py"
+}
