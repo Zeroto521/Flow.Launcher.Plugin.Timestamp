@@ -4,14 +4,24 @@ A time plugin for Wox.
 
 ![screenshot](assets/example.png)
 
-## Features
+## :sparkles: Features
 
-- Global Language, you can set your language in [.env](.env).
+- :globe_with_meridians: Global Language.
     ![screenshot](assets/example_zh.png)
 
-## Requirements
+## :wrench: Configs
+
+You can edit config in [.env](.env).
+
+- `Language` 
+- `Split Symbol`
+  - `Time`
+  - `Date`
+
+## :pushpin: Requirements
 
 - Python3.x
 - `pyperclip`
+- `python-dotenv`
 
 More requirements, please see [requirements.txt](requirements.txt).

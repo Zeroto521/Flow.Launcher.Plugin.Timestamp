@@ -6,6 +6,7 @@ import time
 import pyperclip
 
 from plugin.extensions import _l
+from plugin.settings import DATE_SPLIT_SYMBOL, TIME_SPLIT_SYMBOL
 from plugin.templates import RESULT_TEMPLATE
 from plugin.wox import Wox
 
@@ -17,8 +18,10 @@ class Main(Wox):
         param = param.strip()
 
         stamp = int(time.time())
-        date = time.strftime("%Y-%m-%d", time.localtime(stamp))
-        nowt = time.strftime("%H:%M:%S", time.localtime(stamp))
+        date = time.strftime(
+            "%Y{0}%m{0}%d".format(DATE_SPLIT_SYMBOL), time.localtime(stamp))
+        nowt = time.strftime(
+            "%H{0}%M{0}%S".format(TIME_SPLIT_SYMBOL), time.localtime(stamp))
 
         result.append(self.genformat(stamp, _l('Timestamp')))
         result.append(self.genformat(date, _l('Date')))

@@ -22,6 +22,7 @@ __package_name__ = "timestamp"
 __version__ = "1.0.7"
 __short_description__ = "A time plugin for Wox."
 GITHUB_USERNAME = "Zeroto521"
+__license__ = 'MIT'
 
 
 readme_path = os.path.join(basedir, 'README.md')
@@ -39,3 +40,8 @@ PLUGIN_AUTHOR = "Zeroto521"
 PLUGIN_PROGRAM_LANG = "python"
 PLUGIN_URL = f"https://github.com/{GITHUB_USERNAME}/Wox.Plugin.Timestamp"
 PLUGIN_EXECUTE_FILENAME = "main.py"
+
+
+# time & date split symbol
+DATE_SPLIT_SYMBOL = os.getenv('date_split_symbol', '-')
+TIME_SPLIT_SYMBOL = os.getenv('time_split_symbol', ':')

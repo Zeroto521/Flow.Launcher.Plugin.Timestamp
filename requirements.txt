@@ -1,3 +1,2 @@
 pyperclip
 python-dotenv
-python-dateutil
