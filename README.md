@@ -2,7 +2,7 @@
 
 A time plugin for Wox.
 
-[![Build Status](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp.svg?branch=master)](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp) [![codecov](https://codecov.io/gh/Zeroto521/dhnn/branch/master/graph/badge.svg)](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp)
+[![Build Status](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp.svg?branch=master)](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp) [![codecov](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp/branch/master/graph/badge.svg)](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp)
 
 ![screenshot](assets/example.png)
 
