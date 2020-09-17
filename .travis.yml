@@ -1,0 +1,21 @@
+sudo: false
+language: python
+python:
+    - 2.7
+    - 3.4
+    - 3.5
+    - 3.6
+
+install:
+    - pip install -r requirements.txt
+    - pip install -r requirements-dev.txt
+
+script:
+    - python commands.py init en_US
+    - python commands.py update
+    - python commands.py compile
+    - python commands.py gen-plugin-info
+    - python test.py {}
+
+after_success:
+    - codecov
