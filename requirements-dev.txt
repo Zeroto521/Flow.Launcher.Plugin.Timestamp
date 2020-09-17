@@ -1,2 +1,4 @@
 click
 babel
+codecov
+coverage
