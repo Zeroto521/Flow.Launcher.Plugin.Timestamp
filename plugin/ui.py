@@ -5,13 +5,13 @@ import time
 
 import pyperclip
 
+from flowlauncher import FlowLauncher
 from plugin.extensions import _l
 from plugin.settings import DATE_SPLIT_SYMBOL, TIME_SPLIT_SYMBOL
 from plugin.templates import RESULT_TEMPLATE
-from plugin.wox import Wox
 
 
-class Main(Wox):
+class Main(FlowLauncher):
 
     def query(self, param: str = ''):
         result = []
