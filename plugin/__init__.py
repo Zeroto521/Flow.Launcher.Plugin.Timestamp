@@ -3,7 +3,7 @@
 """
 timestamp
 =====
-A time plugin for Wox.
+A time plugin for Flow.
 """
 
 
