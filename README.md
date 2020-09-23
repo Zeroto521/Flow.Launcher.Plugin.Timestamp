@@ -1,10 +1,15 @@
-# Wox.Plugin.Timestamp
+# Flow.Launcher.Plugin.Timestamp
 
-A time plugin for Wox.
+A time plugin for Flow.
 
-[![Build Status](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp.svg?branch=master)](https://travis-ci.com/Zeroto521/Wox.Plugin.Timestamp) [![codecov](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp/branch/master/graph/badge.svg)](https://codecov.io/gh/Zeroto521/Wox.Plugin.Timestamp)
+[![Build Status](https://travis-ci.com/Zeroto521/Flow.Launcher.Plugin.Timestamp.svg?branch=master)](https://travis-ci.com/Zeroto521/Flow.Launcher.Plugin.Timestamp) [![codecov](https://codecov.io/gh/Zeroto521/Flow.Launcher.Plugin.Timestamp/branch/master/graph/badge.svg)](https://codecov.io/gh/Zeroto521/Flow.Launcher.Plugin.Timestamp)
 
 ![screenshot](assets/example.png)
+
+## :bookmark: Versions
+
+- `Flow` master branch
+- `Wox` wox branch
 
 ## :sparkles: Features
 
@@ -17,8 +22,8 @@ You can edit config in [.env](.env).
 
 - `Language` 
 - `Split Symbol`
-  - `Time`
-  - `Date`
+    - `Time`
+    - `Date`
 
 ## :pushpin: Requirements
 
