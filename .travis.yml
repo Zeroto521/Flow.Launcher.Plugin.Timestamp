@@ -9,9 +9,9 @@ before_install:
     - sudo apt-get update
 
 install:
-    - pip install git+https://github.com/Flow-Launcher/Flow.Launcher.JsonRPC.Python
     - pip install -r requirements-dev.txt
     - pip install -r requirements.txt
+    - pip install git+https://github.com/Flow-Launcher/Flow.Launcher.JsonRPC.Python
 
 script:
     - sh ./test.sh
