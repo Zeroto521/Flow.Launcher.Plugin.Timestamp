@@ -2,3 +2,4 @@ click
 babel
 codecov
 coverage
+demjson
